@@ -9,13 +9,13 @@ contract clothsContract {
     
     modifier beach()
    {
-        require (msg.sender == Beach);
+        require (msg.sender == BeachTshirts);
         _ ;
     }
     
     modifier threads()
     {
-        require (msg.sender == Threads);
+        require (msg.sender == ThreadButtons);
         _ ;
     }
    
